@@ -19,7 +19,7 @@ class FourierFilterApp(QMainWindow):
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
 
-        #Layout
+        # UI layout
         self.layout = QHBoxLayout() 
         self.central_widget.setLayout(self.layout)
 
